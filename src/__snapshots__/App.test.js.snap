@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Application with Modal render application, simulate open modal button click that opens the modal 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <h1
+        data-testid="appTitle"
+      >
+        AppTitle
+      </h1>
+      <h2>
+        Let’s see a modal
+      </h2>
+      <button
+        class="button-default"
+        name="openModal"
+        type="button"
+      >
+        Show Modal
+      </button>
+    </div>
+  </div>
+  <div
+    class="modal-overlay"
+  />
+  <div
+    aria-labelledby="dialog1_label"
+    aria-modal="true"
+    class="modal-wrapper"
+    role="dialog"
+  >
+    <div
+      class="modal"
+    >
+      <div
+        class="modal-header"
+      >
+        <button
+          aria-label="Close"
+          class="modal-close-button"
+          data-dismiss="modal"
+          data-testid="closeMainModal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        class="modal-body"
+      >
+        <h2
+          class="dialog_label"
+          id="dialog1_label"
+          tabindex="-1"
+        >
+          Modal Title
+        </h2>
+        <p>
+          Hello, I'm a modal.
+        </p>
+      </div>
+      <div
+        class="modal-footer"
+      >
+        <button
+          data-testid="continueModal"
+        >
+          Continue
+        </button>
+        <button
+          data-testid="cancelButton"
+          id="cancelBtn"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
